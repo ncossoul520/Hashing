@@ -8,8 +8,6 @@ public class HashSpeedTester {
 
     public static void main(String[] args) {
         HashListLinearProbe map = new HashListLinearProbe();
-//        HashListCuckoo map = new HashListCuckoo();
-
         ArrayList<String> data = makeRandomStringList(MAX_ITEMS_TO_STORE, KEY_LENGTH);
 
         double ellapsedPutTime = 0;
